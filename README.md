@@ -20,3 +20,10 @@ _**Required Installation**_
   <li>Time</li>
   <li>Math</li>
 </ul>
+
+```shell
+$ pip install numpy
+$ pip install cv2
+$ pip install time
+$ pip install math
+```
