@@ -14,12 +14,6 @@ _**Working**_: Initially we will be identifying people from the given any forms 
 _**Tech-Stack-Used**_ :   Image Processing, Yolo v3 Algorithm, COCO Dataset, Artificial Intelligence.
 
 _**Required Installation**_
-<ul>
-  <li>NumPy</li>
-  <li>CV2</li>
-  <li>Time</li>
-  <li>Math</li>
-</ul>
 
 ```shell
 $ pip install numpy
