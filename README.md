@@ -29,9 +29,9 @@ _**Important Instruction**_ :
 _**Execution Instructions**_ :
 
 <ul>
-  <li>For using Image as input **RUN** **image.py** file</li>
-  <li>For using Video as input **RUN** **video.py** file</li>
-  <li>For using Real time camera as input **RUN** **camera.py** file</li>
+  <li>For using Image as input RUN "image.py" file</li>
+  <li>For using Video as input RUN "video.py" file</li>
+  <li>For using Real time camera as input RUN "camera.py" file</li>
  <ul>
   
   
