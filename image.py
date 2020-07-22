@@ -9,10 +9,11 @@ LABELS = open(labelsPath).read().strip().split("\n")
 np.random.seed(42)
 COLORS = np.random.randint(0, 255, size=(len(LABELS), 3),dtype="uint8")
 
-configPath = "./yolov3.cfg"
 weightsPath = "./yolov3.weights"
+configPath = "./yolov3.cfg"
 
 net = cv2.dnn.readNetFromDarknet(configPath, weightsPath)
+
 
 image =cv2.imread('./images/test_image.jpg')
 (H, W) = image.shape[:2]
@@ -24,9 +25,11 @@ start = time.time()
 layerOutputs = net.forward(ln)
 end = time.time()
 print("Frame Prediction Time : {:.6f} seconds".format(end - start))
+
 boxes = []
 confidences = []
 classIDs = []
+
 for output in layerOutputs:
     for detection in output:
         scores = detection[5:]
@@ -40,3 +43,4 @@ for output in layerOutputs:
             boxes.append([x, y, int(width), int(height)])
             confidences.append(float(confidence))
             classIDs.append(classID)
+            
