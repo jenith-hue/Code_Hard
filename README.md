@@ -21,3 +21,9 @@ $ pip install cv2
 $ pip install time
 $ pip install math
 ```
+
+_**Important Instruction**_
+
+**[Click here to download yolov weights file and keet in in your repository before running it.](https://pjreddie.com/darknet/yolo/)**
+
+
