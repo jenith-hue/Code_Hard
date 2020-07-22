@@ -22,8 +22,18 @@ $ pip install time
 $ pip install math
 ```
 
-_**Important Instruction**_
+_**Important Instruction**_ :
 
 **[Click here to download yolov weights file and keet in in your repository before running it.](https://pjreddie.com/darknet/yolo/)**
+
+_**Execution Instructions**_ :
+
+<ul>
+  <li>For using Image as input RUN "image.py" file</li>
+  <li>For using Video as input RUN "video.py" file</li>
+  <li>For using Real time camera as input RUN "camera.py" file</li>
+ <ul>
+  
+  
 
 
