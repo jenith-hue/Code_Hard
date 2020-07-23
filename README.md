@@ -56,6 +56,6 @@ The complete block diagram of the algorithm can be seen below.
 _**Output**_
 <br>
 <br>
-(images/frame4.jpg)
+![Output](images/frame4.jpg)
 
 
