@@ -22,7 +22,7 @@ $ pip install time
 $ pip install math
 ```
 
-_**File Structure of Video Folder**_ :
+_**File Structure of Video Recognize Folder**_ :
 
     main.py     : Detects and calculates distance between humans
     utills.py   : Contain functions to calculate distance, scale, transformed points
