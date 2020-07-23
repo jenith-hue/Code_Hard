@@ -31,7 +31,7 @@ _**File Structure of Video Recognize Folder**_ :
     models      : Contain yolo weights and cfg.(It can be downloaded from the below given link.)
     data        : Contain video sample
     output      : Contain output frames
-    output_vid  : Contain output videos(Empty for now)
+    
     
 
 _**Important Instruction**_ :
@@ -50,8 +50,12 @@ _**How does it works?**_
 <br>
 The complete block diagram of the algorithm can be seen below.
 <br>
+<br>
 ![Block Diagram](images/block_diagram.png)
   
-  
+_**Output**_
+<br>
+<br>
+(images/frame4.jpg)
 
 
