@@ -53,6 +53,9 @@ The complete block diagram of the algorithm can be seen below.
 <br>
 ![Block Diagram](images/block_diagram.png)
   
-  
+_**Output**_
+<br>
+<br>
+(images/frame4.jpg)
 
 
