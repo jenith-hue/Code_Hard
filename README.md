@@ -31,7 +31,7 @@ _**File Structure of Video Recognize Folder**_ :
     models      : Contain yolo weights and cfg.(It can be downloaded from the below given link.)
     data        : Contain video sample
     output      : Contain output frames
-    output_vid  : Contain output videos(Empty for now)
+    
     
 
 _**Important Instruction**_ :
