@@ -18,8 +18,9 @@ _**Required Installation**_
 ```shell
 $ pip install numpy
 $ pip install cv2
-$ pip install time
 $ pip install math
+$ pip install pyaudio
+$ pip install time
 ```
 
 _**File Structure of Video Recognize Folder**_ :
