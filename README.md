@@ -18,8 +18,9 @@ _**Required Installation**_
 ```shell
 $ pip install numpy
 $ pip install cv2
-$ pip install time
 $ pip install math
+$ pip install pyaudio
+$ pip install time
 ```
 
 _**File Structure of Video Recognize Folder**_ :
@@ -43,7 +44,13 @@ _**Execution Instructions**_ :
   <li>For using Image as input RUN "image.py" file</li>
   <li>For using Video as input RUN "video.py" file</li>
   <li>For using Real time camera as input RUN "camera.py" file</li>
- <ul>
+</ul>
+
+_**How does it works?**_
+<br>
+The complete block diagram of the algorithm can be seen below.
+<br>
+![Block Diagram](images/block_diagram.png)
   
   
 
