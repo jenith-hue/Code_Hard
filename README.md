@@ -50,6 +50,7 @@ _**How does it works?**_
 <br>
 The complete block diagram of the algorithm can be seen below.
 <br>
+<br>
 ![Block Diagram](images/block_diagram.png)
   
   
