@@ -22,6 +22,17 @@ $ pip install time
 $ pip install math
 ```
 
+_**File Structure**_ :
+
+    main.py     : Detects and calculates distance between humans
+    utills.py   : Contain functions to calculate distance, scale, transformed points
+    plot.py     : Contain functions to draw bird eye view and frame
+    models      : Contain yolo weights and cfg.(It can be downloaded from the below given link.)
+    data        : Contain video sample
+    output      : Contain output frames
+    output_vid  : Contain output videos(Empty for now)
+    
+
 _**Important Instruction**_ :
 
 **[Click here to download yolov weights file and keet in in your repository before running it.](https://pjreddie.com/darknet/yolo/)**
