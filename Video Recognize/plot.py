@@ -52,7 +52,7 @@ def bird_eye_view(frame, distances_mat, bottom_points, scale_w, scale_h, risk_co
     for i in r:
         blank_image = cv2.circle(blank_image, (int(i[0]  * scale_w), int(i[1] * scale_h)), 5, red, 10)
         
-       
+      
         
     return blank_image
     
