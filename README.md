@@ -23,14 +23,16 @@ $ pip install pyaudio
 $ pip install time
 ```
 
-_**File Structure of Video Recognize Folder**_ :
+_**File Structure**_ :
 
-    main.py     : Detects and calculates distance between humans
+    video.py     : Detects and calculates distance between humans
     utills.py   : Contain functions to calculate distance, scale, transformed points
     plot.py     : Contain functions to draw bird eye view and frame
     models      : Contain yolo weights and cfg.(It can be downloaded from the below given link.)
-    data        : Contain video sample
+    data        : Contain video sample and images
     output      : Contain output frames
+	camera.py   : Provides output with input from camera
+	image.py    : Provides output with input as image
     
     
 

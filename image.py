@@ -16,7 +16,7 @@ configPath = "./models/yolov3.cfg"
 net = cv2.dnn.readNetFromDarknet(configPath, weightsPath)
 
 
-image =cv2.imread('./images/c.jpg')
+image =cv2.imread('./data/c.jpg')
 (H, W) = image.shape[:2]
 ln = net.getLayerNames()
 ln = [ln[i[0] - 1] for i in net.getUnconnectedOutLayers()]
