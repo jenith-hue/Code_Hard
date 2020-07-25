@@ -20,6 +20,7 @@ $ pip install numpy
 $ pip install cv2
 $ pip install math
 $ pip install pyaudio
+$ pip install winsound
 $ pip install time
 ```
 
