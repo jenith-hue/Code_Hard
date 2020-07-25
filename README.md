@@ -25,7 +25,7 @@ $ pip install time
 
 _**File Structure**_ :
 
-    video.py     : Detects and calculates distance between humans
+    video.py    : Detects and calculates distance between humans
     utills.py   : Contain functions to calculate distance, scale, transformed points
     plot.py     : Contain functions to draw bird eye view and frame
     models      : Contain yolo weights and cfg.(It can be downloaded from the below given link.)
