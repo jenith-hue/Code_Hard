@@ -2,6 +2,8 @@ import numpy as np
 import time
 import cv2
 import math
+import winsound
+
 
 labelsPath = "./models/coco.names"
 LABELS = open(labelsPath).read().strip().split("\n")
@@ -83,6 +85,9 @@ for i in nsd:
     (w, h) = (boxes[i][2], boxes[i][3])
     cv2.rectangle(image, (x, y), (x + w, y + h), color, 2)
     text = "Alert"
+    frequency = 700  
+    duration = 500  
+    winsound.Beep(frequency, duration)
     cv2.putText(image, text, (x, y - 5), cv2.FONT_HERSHEY_SIMPLEX,0.5, color, 2)
            
 cv2.putText(image, text, (x, y - 5), cv2.FONT_HERSHEY_SIMPLEX,0.5, color, 2)
