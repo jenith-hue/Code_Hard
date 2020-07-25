@@ -53,11 +53,11 @@ _**How does it works?**_
 The complete block diagram of the algorithm can be seen below.
 <br>
 <br>
-![Block Diagram](images/block_diagram.png)
+![Block Diagram](data/block_diagram.png)
   
 _**Output**_
 <br>
 <br>
-![Output](images/frame4.jpg)
+![Output](data/frame4.jpg)
 
 
