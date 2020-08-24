@@ -1,7 +1,7 @@
 import numpy as np
 import time
 import cv2
-import 
+import math
 
 labelsPath = "./models/coco.names"
 LABELS = open(labelsPath).read().strip().split("\n")
