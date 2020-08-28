@@ -1,4 +1,4 @@
-import cv
+import cv2
 import numpy as np
 
 def get_transformed_points(boxes, prespective_transform):
