@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as n
 import time
 import cv2
 import math
