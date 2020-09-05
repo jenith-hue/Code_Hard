@@ -1,6 +1,6 @@
 import numpy as np
 import time
-import cv2
+import c
 import math
 
 labelsPath = "./models/coco.names"
