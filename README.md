@@ -1,7 +1,7 @@
 
 ## Project's Overview
 
-_**Theme-Name**_ : Present, Future
+_**Theme-Name**_ : Present, 
 
 _**Application-Type**_ :   Web Application
 
