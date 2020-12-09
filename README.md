@@ -3,7 +3,7 @@
 
 _**Theme-Name**_ : Present, Future
 
-_**Application-Type**_ :   Web Application
+_**Application-Type**_ :    Application
 
 _**Idea-Description**_ :   We are going to develop a "**Social Distancing Monitoring**" application with the help of image processing technology. This application can handle 3 different types of input. It can work on image, recorded video and also with realtime cctv camera. We will be using **COCO dataset** for image classsification and labeling. We will be using **yolo v3** Algorithm for getting the best confidence level. When ever people violate social distancing a beep sound will be given to the people to check their social distancing.
 <br>
